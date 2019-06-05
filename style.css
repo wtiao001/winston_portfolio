@@ -36,7 +36,7 @@ h2 {
 }
 h3 {
     font-family: 'Lato', serif;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 300;
     color: black;
     opacity: .8;
@@ -70,6 +70,7 @@ h4 {
     font-weight: bolder;
     position: relative;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 p {
     font-family: 'Lato', serif;
@@ -326,6 +327,7 @@ nav a.active {
     opacity: 0;
     transition: opacity .5s ease;
 }
+
 /*
 .work-expand {
     overflow: hidden;
@@ -337,7 +339,27 @@ nav a.active {
 .work-content.active {
     opacity: 1;
 }
-
+.content-img {
+    width: 100%;
+    padding-right: 30px;
+    display: inline-block;
+}
+.content-img-wrap {
+    float: left;
+    padding-right: 30px;
+    max-width: 400px;
+}
+.img-text-wrap {
+    max-width: 300px;
+    width: 100%;
+    display: inline-block;
+}
+.img-caption {
+    font-family: 'Lato', serif;
+    font-size: 22px;
+    padding: 15px;
+    font-style: italic;
+}
 /* CONTACT SECTION */
 #contact {
     margin-bottom: 50px;
@@ -467,15 +489,28 @@ nav a.active {
         h1 {
         font-size: 46px;
     }
-    h2, h3 {
+    h2 {
         font-size: 17px;
+    }
+    h3 {
+        font-size: 12px;
     }
     h4 {
         font-size: 22px;
+        margin-bottom: 0;
     }
     h5 {
         font-size: 25px;
         margin-top: 50px;
+    }
+    p {
+        font-size: 15px;
+        color: #685141;
+        opacity: .8;
+    }
+    
+    .img-caption {
+        font-size: 17px;
     }
     .project-title {
         font-size: 17px;
